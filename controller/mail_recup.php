@@ -22,15 +22,15 @@ try {
 
         $mail->Host = 'smtp.hostinger.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'taktyl@taktyl-light.com';                 // SMTP username
-        $mail->Password = 'Colonel19@';                           // SMTP password
+        $mail->Username = '';                 // SMTP username
+        $mail->Password = '';                           // SMTP password
         // $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         // $mail->Port = 587;   // for tls                                 // TCP port to connect to
         $mail->Port = 587;
 
         //Recipients
-        $mail->setFrom('taktyl@taktyl-light.com'); // from who? 
+        $mail->setFrom(''); // from who? 
         $mail->addAddress($email);     // Add a recipient
     //Attachments
 
