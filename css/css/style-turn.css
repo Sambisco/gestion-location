@@ -1,0 +1,236 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+ @import url("style.css");
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	text-decoration: none;
+ 	border: none;
+ 	outline: none;
+ 	font-family: "Poppins", sans-serif;
+ }
+
+ :root {
+ 	--bg-color: #081b29;
+ 	--main-color: #00abf0;
+ 	--text-color: #333;
+ 	--second-text-color: #555;
+ 	--white-color: #fff;
+ 	--cover-color: linear-gradient(45deg, #00abf0, #006e9a);
+ 	--pages-color: linear-gradient(90deg, #fff, #ddd);
+ 	--border: .125rem solid #00abf0;
+ 	--box-shadows: 0 0 .6rem rgba(0, 0, 0, .2);
+ }
+
+ .body {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .wrapper {
+ 	position: relative;
+ 	padding: 1rem 1rem;
+ 	display: flex;
+ 	background: var(--background-icon);
+ 	align-items: center;
+ 	justify-content: center;
+ 	border-radius: .6rem;
+ 	margin-top: 80px;
+ }
+
+ .contour {
+ 	padding: 10px;
+ 	width: 1100px;
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .contour button {
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	height: 40px;
+ 	width: 40px;
+ 	border-radius: 50%;
+ 	font-size: 20px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	cursor: pointer;
+ 	color: var(--background-icon);
+ }
+
+ .flipbook {
+ 	width: 1100px;
+ 	height: 600px;
+ }
+
+ .flipbook .page {
+ 	background: linear-gradient(90deg, #fff, #ddd);
+ 	background-size: cover;
+ 	box-shadow: 0 0 .6rem rgba(0, 0, 0, .1);
+ 	width: 100%;
+ }
+
+ .page-front {
+ 	background: linear-gradient(90deg, #fff, #ddd);
+ 	padding-top: 1.5rem;
+ 	padding-right: 2rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	height: 100%;
+ }
+
+ .title {
+ 	text-align: center;
+ 	margin-bottom: 1rem;
+ 	font-size: 1.5rem;
+ }
+
+ .workeduc-box {
+ 	flex: auto;
+ 	height: 100%;
+ 	overflow-y: auto;
+ 	overflow-x: hidden;
+ 	padding-left: 2rem;
+ }
+
+ .workeduc {
+ 	border-left: .125rem solid var(--background-icon);
+ }
+
+ .workeduc-box::-webkit-scrollbar {
+ 	width: 7px;
+ 	background: #555;
+ 	margin-right: 20px;
+ }
+
+ .workeduc-box::-webkit-scrollbar-track {
+ 	background: transparent;
+
+ }
+
+ .workeduc-box::-webkit-scrollbar-thumb {
+ 	background: var(--background-icon);
+ 	border-radius: 50px;
+ 	cursor: pointer;
+ }
+
+ .workeduc-box .workeduc-content {
+ 	position: relative;
+ 	padding-left: 1.6rem;
+ 	margin-bottom: 1.2rem;
+ 	width: 100%;
+ }
+
+ .workeduc-box .workeduc-content::before {
+ 	content: "";
+ 	position: absolute;
+ 	top: 0;
+ 	left: -0.65rem;
+ 	width: 1.2rem;
+ 	height: 1.2rem;
+ 	background: var(--background-icon);
+ 	border-radius: 50%;
+ }
+
+ .workeduc-content .year {
+ 	color: var(--main-color);
+ }
+
+ .workeduc-content .year i {
+ 	margin-right: .4rem;
+ }
+
+
+ .skills-box {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	gap: 1.5rem;
+ }
+
+ .skills-box .skills-content {
+ 	flex: 1 1 20rem;
+ }
+
+ .skills-box .skills-content h3 {
+ 	font-size: 1.3rem;
+ 	line-height: 1;
+ 	margin-bottom: .6rem;
+ }
+
+ .skills-box .skills-content .content {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	gap: .4rem;
+ }
+
+ .skills-box .skills-content .content span {
+ 	display: inline-flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 5.5rem;
+ 	height: 4.5rem;
+ 	border: solid .125rem var(--background-icon);
+ 	border-radius: .3rem;
+ 	font-weight: 600;
+ 	transition: .3s ease;
+ }
+
+ .skills-box .skills-content .content span:hover {
+ 	box-shadow: var(--box-shadows);
+ }
+
+ .skills-box .skills-content .content span i {
+ 	font-size: 1.5rem;
+ 	color: var(--background-icon);
+ 	margin-bottom: 5px;
+ }
+
+ .skills-box .skills-content .content span h4 {
+ 	font-size: .65rem;
+ 	text-transform: uppercase;
+ }
+
+ .skills-box .skills-content .content span h5 {
+ 	font-size: .7rem;
+ 	margin-top: 2px;
+ 	color: var(--background-icon);
+ 	text-transform: uppercase;
+ }
+
+ .number-page {
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ }
+
+ @media (max-width:584px) {
+ 	.wrapper {
+ 		margin-top: 110px;
+ 	}
+
+ 	.contour {
+ 		width: 100%;
+ 	}
+
+ 	.flipbook {
+			transition: margin-left 0.25s ease-out;
+			width: 100%;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+ 	}
+ .flipbook .page {
+		width: 100%;
+ }
+ .page-front {
+	height: 600px;
+ }
+ }

@@ -1,0 +1,158 @@
+@page {
+    size: 500pt 390pt;
+    margin-bottom: -100in;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contain {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: solid 1px #000;
+}
+
+.contain-header {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    font-size: 11px;
+}
+
+.logo img {
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+.heder-items {
+    text-align: right;
+    font-size: 11px;
+}
+
+.info {
+    margin-top: 25px;
+    border: solid 1px #000;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.date-num {
+    font-size: 13px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.date-num-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 69% !important;
+    padding-right: 5px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.date-num-right {
+    width: 27.85%;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: #000 dotted 1px;
+    padding-left: 5px;
+}
+
+.info-eleve {
+    margin-top: 10px;
+}
+
+.prenom {
+    font-size: 13px;
+    font-weight: bold;
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.prenom-prenom {
+    border-bottom: dotted 1px #000;
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    margin-left: -5px;
+    padding-left: 5px;
+    margin-right: 25px;
+}
+
+.nom {
+    width: 9%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    margin-left: -5px;
+    font-weight: bold;
+}
+
+.nom-nom {
+    border-bottom: dotted 1px #000;
+    width: 24%;
+    margin-left: -5px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.matricule-classe {
+    margin-top: 5px;
+}
+
+.sm-lettre {
+    margin-top: 5px;
+}
+
+.sm-lettre1 {
+    font-size: 13px;
+    font-weight: bold;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sm-lettre2 {
+    border-bottom: dotted 1px #000;
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding-left: 5px;
+    margin-left: 6px;
+}
+
+.signature {
+    margin-top: 20px;
+    padding-right: 20%;
+    text-align: right;
+    font-size: 13px;
+}
+
+.sign-cachet {
+    margin-top: 10px;
+    padding-right: 20%;
+    text-align: right;
+    font-size: 13px;
+    height: 100px;
+}
+
+.sign-cachet img {
+    height: 100px;
+    width: 100px;
+}

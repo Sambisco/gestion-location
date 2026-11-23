@@ -1,0 +1,1234 @@
+     * {
+          font-family: Georgia, 'Times New Roman', Times, serif
+     }
+
+     body {
+          border: solid 1px #000;
+     }
+
+     .page-break {
+          page-break-after: always;
+     }
+
+     .table,
+     .table2,
+     .table3,
+     .table4,
+     .table5,
+     .table6,
+     .table7,
+     .table8,
+     .table9,
+     .table10,
+     .table11,
+     .table12,
+     .table13,
+     .table14,
+     .table15,
+     .table16,
+     .table17,
+     .table18,
+     .table19,
+     .table20,
+     .table21,
+     .table22,
+     .table23,
+     .table24,
+     .table25,
+     .table26,
+     .table27,
+     .table28,
+     .table29,
+     .table30,
+     .table31,
+     .table32,
+     .table33,
+     .table34,
+     .table35,
+     .table36,
+     .table37,
+     .table38,
+     .table39,
+     .table40,
+     .table41,
+     .table42,
+     .table43 {
+          border-collapse: collapse;
+     }
+
+     .table,
+     .table2 {
+          width: 100%;
+          border-bottom: solid 1px #000;
+     }
+
+
+     .table tr:nth-child(1) td:nth-child(1) {
+          width: 70%;
+          text-align: center;
+          font-size: 8pt;
+          border: none;
+          vertical-align: top;
+          padding-top: 10px;
+     }
+
+     .table tr:nth-child(1) td:nth-child(2) {
+          text-align: center;
+          font-size: 8pt;
+          vertical-align: top;
+          padding-top: 10px;
+          height: 15px;
+          border-left: solid 1px #000;
+     }
+
+     .table tr:nth-child(2) td:nth-child(1) {
+          padding-left: 22%;
+     }
+
+     .table tr:nth-child(2) td div:nth-child(1),
+     .table tr:nth-child(2) td div:nth-child(2),
+     .table tr:nth-child(2) td div:nth-child(3),
+     .table tr:nth-child(2) td div:nth-child(4) {
+          padding-top: 10px;
+          font-size: 8pt;
+          display: inline-block;
+     }
+
+     .table tr:nth-child(2) td div:nth-child(2),
+     .table tr:nth-child(2) td div:nth-child(4) {
+          border-bottom: solid 1px #000;
+          width: 37%;
+     }
+
+     .table tr:nth-child(2) td div:nth-child(2) {
+          margin-right: 20px;
+     }
+
+     .table tr:nth-child(3) td:nth-child(1) {
+          text-align: center;
+          font-size: 8pt;
+     }
+
+     .table tr:nth-child(4) td:nth-child(1) {
+          padding-top: 5px;
+          padding-left: 40px;
+          font-size: 8pt;
+          padding-bottom: 10px;
+     }
+
+     .immatriculation {
+          width: 100%;
+          border-bottom: solid 1px #000;
+          border-left: none;
+          border-right: none;
+          margin-top: -7px;
+     }
+
+     .immatriculation div:nth-child(1) {
+          width: 54%;
+          display: inline-block;
+          font-size: 8pt;
+          padding-left: 40px;
+          vertical-align: middle;
+     }
+
+     .immatriculation div:nth-child(2) {
+          width: 35.4%;
+          display: inline-block;
+          margin-left: -5px;
+          vertical-align: top;
+          padding-top: 10px;
+     }
+
+     .table2 {
+          border-bottom: none;
+     }
+
+     .table2 tr td {
+          border: solid 1px #000;
+          font-size: 8pt;
+     }
+
+     .table2 tr:nth-child(1) td {
+          border-bottom: none;
+     }
+
+     .table2 tr:nth-child(2) td {
+          height: 25px;
+          width: 15px;
+          border-top: none;
+          text-align: center;
+     }
+
+     .table2 tr:nth-child(3) td:nth-child(1),
+     .table2 tr:nth-child(3) td:nth-child(2) {
+          text-align: center;
+          border: none;
+     }
+
+     .table2 tr:nth-child(3) td:nth-child(3) {
+          text-align: right;
+          padding-right: 15px;
+          border: none;
+     }
+
+     .table2 tr:nth-child(3) td:nth-child(4) {
+          text-align: center;
+          border: none;
+     }
+
+     .table2 tr:nth-child(3) td:nth-child(5) {
+          text-align: center;
+          border: none;
+     }
+
+     .table2 tr:nth-child(3) td:nth-child(6) {
+          text-align: center;
+          border: none;
+     }
+
+     .table3 {
+          width: 100%;
+     }
+
+     .table3 tr td {
+          width: 50%;
+          font-size: 8pt;
+     }
+
+     .table3 tr td:nth-child(1) {
+          padding-left: 10px;
+          vertical-align: top;
+     }
+
+     .table3 tr td:nth-child(2) {
+          text-align: center;
+     }
+
+     .table4 {
+          width: 100%;
+     }
+
+     .table4 tr td {
+          font-size: 8pt;
+          height: 15px;
+     }
+
+     .table4 tr td:nth-child(1) {
+          width: 25%;
+          padding-left: 10px;
+     }
+
+     .table4 tr td:nth-child(2) {
+          width: 27%;
+          padding-left: 10px;
+     }
+
+     .table4 tr td:nth-child(3) {
+          width: 47%;
+          text-align: center;
+          border-top: #000 1px solid;
+          border-left: #000 1px solid;
+          border-right: none;
+          border-bottom: #000 1px solid;
+     }
+
+     .table4  .encadrement_table4 {
+          border-top: #000 1px solid;
+          border-left: #000 1px solid;
+          border-right: #000 1px solid;
+          border-bottom: #000 1px solid;
+          padding-left: 5px;
+          width: 120px;
+     }
+
+     .table5 {
+          width: 100%;
+     }
+
+     .table5 tr td {
+          font-size: 8pt;
+          height: 15px;
+     }
+
+     .table5 tr td:nth-child(1) {
+          width: 53%;
+          padding-left: 15px;
+     }
+
+     .table5 tr td:nth-child(2) {
+          width: 48%;
+          text-align: center;
+          vertical-align: top;
+          padding-top: 15px;
+     }
+
+     .table6 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table6 tr td {
+          font-size: 8pt;
+     }
+
+     .table6 tr td:nth-child(1) {
+          width: 6.5%;
+          padding-left: 10px;
+     }
+
+     .table6 tr td:nth-child(2) {
+          width: 25%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table6 tr td:nth-child(3) {
+          width: 9%;
+          text-align: right;
+     }
+
+     .table6 tr td:nth-child(4) {
+          width: 35%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table6 tr td:nth-child(5) {
+          width: 7%;
+          text-align: right;
+     }
+
+     .table6 tr td:nth-child(6) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table7 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table7 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table7 tr td:nth-child(1) {
+          width: 6.5%;
+          padding-left: 10px;
+     }
+
+     .table7 tr td:nth-child(2) {
+          width: 15%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(3) {
+          width: 2%;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(4) {
+          width: 25%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(5) {
+          width: 4%;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(6) {
+          width: 20%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(7) {
+          width: 7%;
+          text-align: center;
+     }
+
+     .table7 tr td:nth-child(8) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table8 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table8 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table8 tr td:nth-child(1) {
+          width: 15.2%;
+          padding-left: 10px;
+     }
+
+     .table8 tr td:nth-child(2) {
+          width: 24%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table8 tr td:nth-child(3) {
+          width: 8%;
+     }
+
+     .table8 tr td:nth-child(4) {
+          width: 24%;
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table8 tr td:nth-child(5) {
+          width: 11%;
+          text-align: center;
+     }
+
+     .table8 tr td:nth-child(6) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table9 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table9 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table9 tr td:nth-child(1) {
+          width: 16%;
+          padding-left: 10px;
+     }
+
+     .table9 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table10 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table10 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table10 tr td:nth-child(1) {
+          width: 13%;
+          padding-left: 10px;
+     }
+
+     .table10 tr td:nth-child(2) {
+          width: 25%;
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table10 tr td:nth-child(3) {
+          width: 7%;
+          text-align: center;
+     }
+
+     .table10 tr td:nth-child(4) {
+          width: 30%;
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table10 tr td:nth-child(5) {
+          width: 2%;
+          text-align: center;
+     }
+
+     .table10 tr td:nth-child(6) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table11 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table11 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table11 tr td:nth-child(1) {
+          width: 4%;
+          padding-left: 10px;
+     }
+
+     .table11 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table12 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table12 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table12 tr td:nth-child(1) {
+          width: 27%;
+          padding-left: 10px;
+     }
+
+     .table12 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table12 tr td:nth-child(3) {
+          width: 23.5%;
+     }
+
+     .table12 tr td:nth-child(4) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table13 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table13 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table13 tr td:nth-child(1) {
+          width: 44%;
+          padding-left: 10px;
+     }
+
+     .table13 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table14 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table14 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table14 tr td:nth-child(1) {
+          width: 18%;
+          padding-left: 10px;
+     }
+
+     .table14 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table14 tr td:nth-child(3) {
+          width: 18%;
+     }
+
+     .table14 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table15 {
+          width: 100%;
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 8pt;
+          margin-top: 3px;
+          text-align: center;
+     }
+
+     .table15 span:nth-child(1) {
+          text-align: left;
+          display: inline-block;
+          margin-top: 1px;
+     }
+
+     .table15 span:nth-child(2) {
+          display: inline-block;
+          width: 100%;
+     }
+
+     .table15 span:nth-child(3) {
+          display: inline-block;
+          width: 100%;
+          margin-top: -2px;
+     }
+
+     .table15 hr {
+          background-color: #000;
+          height: 1px;
+          border: 0;
+          margin-top: 0px;
+     }
+
+     .table15 hr:nth-child(2) {
+          margin-left: 85px;
+     }
+
+             .table16 {
+                  width: 100%;
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  font-size: 8pt;
+                  margin-top: 3px;
+                  text-align: center;
+             }
+     
+             .table16 span:nth-child(1) {
+                  text-align: left;
+                  display: inline-block;
+                  margin-top: 1px;
+             }
+     
+             .table16 span:nth-child(2) {
+                  display: inline-block;
+                  width: 100%;
+             }
+     
+             .table16 span:nth-child(3) {
+                  display: inline-block;
+                  width: 100%;
+                  margin-top: -2px;
+             }
+     
+             .table16 hr {
+                  background-color: #000;
+                  height: 1px;
+                  border: 0;
+                  margin-top: 0px;
+             }
+     
+             .table16 hr:nth-child(2) {
+                  margin-left: 120px;
+             }
+     .table17 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table17 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table17 tr td:nth-child(1) {
+          width: 24%;
+          padding-left: 10px;
+     }
+
+     .table17 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table18 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table18 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table18 tr td:nth-child(1) {
+          width: 46.5%;
+          padding-left: 10px;
+     }
+
+     .table18 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table19 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table19 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table19 tr td:nth-child(1) {
+          width: 9.5%;
+          padding-left: 10px;
+     }
+
+     .table19 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+          width: 30%;
+     }
+
+     .table19 tr td:nth-child(3) {
+          width: 18.5%;
+     }
+
+     .table19 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table20 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table20 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table20 tr td:nth-child(1) {
+          width: 17%;
+          padding-left: 10px;
+     }
+
+     .table20 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+          width: 40%;
+     }
+
+     .table20 tr td:nth-child(3) {
+          width: 7.5%;
+     }
+
+     .table20 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table21 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table21 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table21 tr td:nth-child(1) {
+          width: 22%;
+          padding-left: 10px;
+     }
+
+     .table21 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table22 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table22 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table22 tr td:nth-child(1) {
+          width: 53%;
+          padding-left: 10px;
+     }
+
+     .table22 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table23 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table23 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table23 tr td:nth-child(1) {
+          width: 38%;
+          padding-left: 10px;
+     }
+
+     .table23 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table23 tr td:nth-child(3) {
+          text-align: center;
+          width: 20%;
+     }
+
+     .table23 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table24 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table24 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table24 tr td:nth-child(1) {
+          width: 44%;
+          padding-left: 10px;
+     }
+
+     .table24 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table25 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table25 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table25 tr td:nth-child(1) {
+          width: 19.5%;
+          padding-left: 10px;
+     }
+
+     .table25 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .duree {
+          margin-top: 40px;
+          border-top: #000 1px solid;
+          border-bottom: #000 1px solid;
+          padding-top: 20px;
+          padding-bottom: 20px;
+     }
+
+     .table26 {
+          width: 85%;
+     }
+
+     .table26 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          width: 50%;
+     }
+
+     .table27 {
+          width: 85%;
+     }
+
+     .table27 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table27 tr td:nth-child(1) {
+          width: 50%;
+     }
+
+     .table28 {
+          width: 100%;
+     }
+
+     .table28 tr td {
+          font-size: 8pt;
+
+     }
+
+     .table28 tr td:nth-child(1) {
+          width: 3%;
+     }
+
+     .table28 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table28 tr td:nth-child(3) {
+          width: 3%;
+     }
+
+     .table28 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table29 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table29 tr td {
+          font-size: 8pt;
+     }
+
+     .table29 tr td:nth-child(1) {
+          width: 50%;
+          text-align: right;
+     }
+
+     .table29 tr td:nth-child(2) {
+          text-align: right;
+          width: 20%;
+     }
+
+     .table29 tr td:nth-child(3) {
+          border-bottom: #000 1px solid;
+     }
+
+     .table30 {
+          width: 100%;
+          margin-right: 10px;
+          margin-top: 30px;
+     }
+
+     .table30 tr td {
+          font-size: 8pt;
+     }
+
+     .table30 tr td:nth-child(1) {
+          width: 27%;
+          padding-left: 10px;
+     }
+
+     .table30 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table31 {
+          width: 100%;
+          margin-right: 10px;
+
+     }
+
+     .table31 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+     }
+
+     .table31 tr td:nth-child(1) {
+          padding-left: 10px;
+     }
+
+     .table32 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table32 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table32 tr td:nth-child(1) {
+          padding-left: 10px;
+          width: 30%;
+     }
+
+     .table32 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+          width: 35%;
+     }
+
+     .table32 tr td:nth-child(3) {
+          width: 17%;
+     }
+
+     .table32 tr td:nth-child(4) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .table33 {
+          width: 100%;
+          margin-left: 40px;
+          margin-top: 30px;
+     }
+
+     .table33 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table34 {
+          width: 100%;
+          margin-top: 30px;
+     }
+
+     .table34 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          width: 50%;
+     }
+
+     .table34 tr td:nth-child(1) {
+          padding-left: 180px;
+     }
+
+     .table35 {
+          width: 100%;
+          margin-top: 30px;
+          margin-right: 10px;
+     }
+
+     .table35 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table35 tr td:nth-child(1) {
+          width: 17%;
+          padding-left: 10px;
+     }
+
+     .table35 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table36 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table36 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table36 tr td:nth-child(1) {
+          width: 31.5%;
+          padding-left: 10px;
+     }
+
+     .table36 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table37 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table37 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table37 tr td:nth-child(1) {
+          width: 28%;
+          padding-left: 10px;
+     }
+
+     .table37 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table38 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table38 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+
+     }
+
+     .table38 tr td:nth-child(1) {
+          width: 37%;
+          padding-left: 10px;
+     }
+
+     .table38 tr td:nth-child(2) {
+          border-bottom: #000 1px solid;
+          text-align: center;
+     }
+
+     .table39 {
+          width: 100%;
+          margin-right: 10px;
+          margin-top: 30px;
+     }
+
+     .table39 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          padding-left: 10px;
+     }
+
+     .table40 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table40 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          padding-left: 10px;
+          width: 50%;
+          text-align: right;
+     }
+
+     .table41 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table41 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          padding-left: 10px;
+          width: 50%;
+     }
+
+     .heure {
+          font-size: 8pt;
+          margin-top: 40px;
+          padding-left: 10px;
+     }
+
+     .heure div {
+          padding-left: 5px;
+
+     }
+
+     .heure .heure_heure {
+          border: #000 1px solid;
+          padding-left: 5px;
+          width: 20%;
+     }
+
+     .table42 {
+          width: 100%;
+          margin-right: 10px;
+     }
+
+     .table42 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          padding-left: 10px;
+
+     }
+
+     .table42 tr td:nth-child(1) {
+          width: 5.5%;
+     }
+
+     .table42 tr td:nth-child(2) {
+          text-align: center;
+          border-bottom: #000 1px solid;
+     }
+
+     .numero {
+          font-size: 8pt;
+          padding-left: 10px;
+     }
+
+     .numero div:nth-child(1) {
+          margin-top: 30px;
+     }
+
+     .numero div:nth-child(2),
+     .numero div:nth-child(3),
+     .numero div:nth-child(4) {
+          margin-top: 70px;
+     }
+
+     .table43 {
+          width: 100%;
+          margin-top: 50px;
+     }
+
+     .table43 tr td {
+          font-size: 8pt;
+          padding-top: 3px;
+          padding-left: 10px;
+
+     }
+
+     .table43 tr td:nth-child(1) {
+          width: 60%;
+          text-align: center;
+     }
+
+     .table43 tr td:nth-child(2) {
+          width: 40%;
+          text-align: center;
+     }
+
+     .declaration {
+          border-top: #000 1px solid;
+          margin-top: 125px;
+          font-size: 8.5pt;
+          padding-top: 5px;
+          padding-left: 30px;
+          width: 100%;
+     }
+
+     .box {
+          width: 100%;
+          margin-top: 50px;
+          border-bottom: #000 1px solid;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+
+     .box hr:nth-child(1) {
+          margin-left: 100px;
+     }

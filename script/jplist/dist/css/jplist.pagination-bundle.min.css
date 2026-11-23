@@ -1,0 +1,56 @@
+
+.lato {
+    font-family: 'Lato', sans-serif
+}
+
+.jplist-panel .jplist-pagination {
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+}
+
+.jplist-panel .jplist-pagination button {
+    display: inline-block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background: var(--background-icon);
+    cursor: pointer;
+}
+.jplist-panel .jplist-pagination button:hover {
+    background: var(--background-hover);
+}
+.jplist-panel .jplist-pagination .jplist-current {
+    font-weight: bold;
+    color: var(--background-icon);
+    background: #fff;
+    border: solid 1px var(--background-icon);
+}
+.jplist-panel .jplist-pagination .jplist-current:hover{
+    background: var(--background-hover);
+    color: #fff;
+}
+.jplist-panel .jplist-pagination .jplist-pagingprev,
+.jplist-panel .jplist-pagination .jplist-pagingmid,
+.jplist-panel .jplist-pagination .jplist-pagingnext {
+    float: left
+}
+
+.jplist-panel .jplist-pagination .jplist-pagingprev button,
+.jplist-panel .jplist-pagination .jplist-pagingnext button {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    cursor: pointer;
+}
+.jplist-panel .jplist-pagination .jplist-pagingprev button:hover,
+.jplist-panel .jplist-pagination .jplist-pagingnext button:hover {
+    background: var(--background-hover);
+}
+.jplist-one-page {
+    display: none
+}
+
+.jplist-empty {
+    display: none
+}

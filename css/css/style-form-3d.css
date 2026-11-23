@@ -1,0 +1,243 @@
+.modal-petit-3d {
+	position: relative;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	background-image: url(../../img/image/pexels-photo-1629236.jpeg);
+	background-size: cover;
+	left: 0;
+	right: 0;
+	height: auto;
+	border-radius: 10px;
+}
+
+.modal-petit-3d .title {
+	color: #fff;
+}
+
+.modal-petit-3d .modal-close {
+	border-bottom: solid 2px var(--background-icon);
+}
+
+.modal-petit-3d .container3D .parent {
+	perspective: 1000px;
+}
+
+.modal-petit-3d .container3D .parent .card {
+	padding-top: 50px;
+	transform-style: preserve-3d;
+	background-position: center center;
+	width: 100%;
+	transition: all 0.5s ease-in-out;
+	border-radius: 10px;
+}
+
+
+.modal-petit-3d .container3D .parent .card .content-box {
+	height: 100%;
+	width: 100% !important;
+	background-color: var(--background-color);
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: var(--background-icon) 0px 20px 100px -25px;
+	transition: all 0.5s ease-in-out;
+	margin-top: -50px;
+	padding: 50px 0px 15px 0px;
+	transform-style: preserve-3d;
+}
+
+.modal-petit-3d .container3D .parent .card .content-box .card-title {
+	color: white;
+	font-size: 15px;
+	font-weight: 900;
+	transition: all 0.5s ease-in-out;
+	transform: translate3d(0px, 0px, 20px);
+}
+
+.modal-petit-3d .container3D .parent .card .content-box .card-title::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: var(--background-icon);
+	display: flex;
+}
+
+
+.modal-petit-3d .container3D .parent .card .content-box .card-content {
+	padding-top: 10px;
+	font-size: 11px;
+	transition: all 0.5s ease-in-out;
+	transform: translate3d(0px, 0px, 20px);
+}
+
+.modal-petit-3d .container3D .parent .card .content-box .card-content .card-content-info {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+
+
+.modal-petit-3d .container3D .parent .card .content-box .see-more {
+	display: flex;
+	gap: 5px;
+	font-weight: 900;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: var(--background-icon);
+	padding-top: 20px;
+	transition: all 0.5s ease-in-out;
+	transform: translate3d(0px, 0px, 20px);
+}
+
+.modal-petit-3d .container3D .parent .card .content-box .see-more span a {
+	text-decoration: none;
+}
+
+
+.modal-petit-3d .container3D .parent .card .date-box {
+	position: relative;
+	top: 0px;
+	left: 25px;
+	height: 80px;
+	width: 80px;
+	border-radius: 10px;
+	transform: translate3d(0px, 0px, 50px);
+	display: flex;
+	justify-content: space-between;
+}
+.modal-petit-3d .container3D .parent .card .date-box1 img:nth-child(2){
+	margin-left: 10px;
+}
+.modal-petit-3d .container3D .parent .card .date-box .date {
+	font-size: 20px;
+	font-weight: 900;
+	color: var(--background-icon);
+}
+
+.modal-petit-3d .container3D .parent .card .date-box img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background: #fff;
+	border: solid 3px var(--background-icon);
+		box-shadow: var(--background-icon) 0px 20px 60px 0px, rgb(0, 200, 255) 0px 18px 36px -18px;
+}
+
+.modal-petit-3d .container3D .parent .card .date-box .fa-camera {
+	color: var(--background-icon);
+}
+
+.modal-petit-3d .container3D .parent .card .date-box .round {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	background: #fff;
+	border: solid 2px var(--background-icon);
+	width: 25px;
+	height: 25px;
+	line-height: 26px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-petit-3d .container3D .parent .card .date-box .file-upload {
+	position: absolute;
+	transform: scale(2);
+	opacity: 0;
+	cursor: pointer;
+}
+
+.file-upload::-webkit-file-upload-button {
+	cursor: pointer;
+}
+
+.modal-petit-3d .container-form {
+	width: 100%;
+}
+
+
+.modal-petit-3d .container-form .user-details-register .input-group {
+	width: calc(100% / 2 - 10px);
+}
+
+.modal-petit-3d .container-form .user-details-register,
+.modal-petit-3d .container-form .user-details-login {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.modal-petit-3d .container-form .label-details {
+	color: #fff;
+	font-size: 12px;
+}
+
+.modal-petit-3d .container-form .text-input {
+	font-size: 12px;
+	height: 35px !important;
+	width: 100% !important;
+}
+.modal-petit-3d .container-form .select2-selection{
+	font-size: 12px;
+		height: 35px !important;
+		width: 100% !important;
+		display: flex;
+		align-items: center;
+		padding-left: 40px;
+			padding-top: 2px;
+}
+.modal-petit-3d .container-form .select2-selection__arrow {
+ 	height: 35px !important;
+ }
+
+.modal-petit-3d .container-form .select2-results__option {
+ 	line-height: 10px;
+ 	display: flex;
+ 	align-items: center;
+ 	font-size: 12px;
+ }
+.modal-petit-3d .container-form .span-left,
+.modal-petit-3d .container-form .span-right {
+	height: 35px !important;
+	width: 35px;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-petit-3d .container-form .span-left .fa,
+.modal-petit-3d .container-form .span-right .fa {
+	font-size: 14px;
+}
+
+.modal-petit-3d .container-form .footer-modal {
+	width: 100%;
+	border-top: solid 2px var(--background-icon);
+	padding-top: 15px;
+	margin-bottom: -10px;
+}
+
+@media (max-width:584px) {
+	.modal-petit-3d {
+		width: 100%;
+	}
+
+	.modal-petit-3d .container-form {
+		width: 100% !important;
+	}
+
+	.modal-petit-3d .container-form .user-details-register .input-group {
+		display: block;
+		width: 100%;
+	}
+
+	.modal-petit-3d .container-form .user-details-register .input-text {
+		width: 100% !important;
+		flex-grow: 1;
+	}
+}
